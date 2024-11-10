@@ -1,0 +1,20 @@
+.joystick {
+    width: 150px;  /* Increase size of the joystick */
+    height: 150px;
+    background-color: #ccc;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joystick-handle {
+    width: 60px;   /* Increase size of the joystick handle */
+    height: 60px;
+    background-color: #6C5BF5;
+    border-radius: 50%;
+    position: absolute;
+    transition: 0.1s;
+}
